@@ -69,7 +69,7 @@
         <address>2025-26 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2F" id="vali">Web validada</a>
         <p>Última vez modificado:<time datetime="2026-06-11">2026-09-28</time></p>
-        <a href="https://github.com/AlvaroCalde/ACPDWESProyectoDWES"><img src="/webroot/images/github.png" alt="enlace a github"></a>
+        <a href="https://github.com/AlvaroCalde/ACPDWESProyectoDWES" target="blank"><img src="/webroot/images/github.png" alt="enlace a github" ></a>
         <!--
         <a type="application/rss" href="/rss/rss.xml">
             <img src="/webroot/images/rss_imagen.png" alt="imagen rss">
