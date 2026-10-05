@@ -62,7 +62,7 @@ footer a img{
     color: white;
 }
 
-.UD1{
+.UD1, .UD2{
     display: grid;
     grid-template-columns: auto;
 }

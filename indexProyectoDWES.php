@@ -22,7 +22,7 @@
         
             <div class="UD2" id="2">
                 <p>UT2: INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN DEL ENTORNO DE DESARROLLO Y DEL ENTORNO DE EXPLOTACIÓN</p>
-                
+                <a href="./doc/Estudio_Tema_2.pdf" class="ej"  target="_blank">Estudio tema 2</a>
             </div> 
         
         
