@@ -15,14 +15,15 @@
         <div class="content">
             <div class="UD1" id="1"> 
                 <p>UT1: DESARROLLO WEB EN ENTORNO SERVIDOR</p>
-                <a href="./doc/Estudio_Tema_1.pdf" class="ej"  target="_blank">Estudio tema 1</a>
+                <a href="./doc/EstudioTema1.pdf" class="ej"  target="_blank">Estudio tema 1</a>
             </div>
         
         
         
             <div class="UD2" id="2">
                 <p>UT2: INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN DEL ENTORNO DE DESARROLLO Y DEL ENTORNO DE EXPLOTACIÓN</p>
-                <a href="./doc/Estudio_Tema_2.pdf" class="ej"  target="_blank">Estudio tema 2</a>
+                <a href="./doc/USED.pdf" class="ej"  target="_blank">USED</a>
+                <a href="./doc/ClienteDeDesarrollo.pdf" class="ej"  target="_blank">W10ED</a>
             </div> 
         
         
@@ -33,8 +34,7 @@
         
 
             <div class="UD4" id="4"> 
-                
-                <p>UT4: TÉCNICAS DE ACCESO A DATOS EN PHP</p>
+                <a href="../DWESProyecto4/indexProyecto4.php">UT4: TÉCNICAS DE ACCESO A DATOS EN PHP</a>
             </div>
          
         
@@ -66,15 +66,8 @@
          </div>
     </main>           
     <footer>
-        <address>2025-26 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2F" id="vali">Web validada</a>
-        <p>Última vez modificado:<time datetime="2026-06-11">2026-09-28</time></p>
-        <a href="https://github.com/AlvaroCalde/ACPDWESProyectoDWES" target="blank"><img src="/webroot/images/github.png" alt="enlace a github" ></a>
-        <!--
-        <a type="application/rss" href="/rss/rss.xml">
-            <img src="/webroot/images/rss_imagen.png" alt="imagen rss">
-        </a>  
-        -->                       
+        <address>2026-27 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
+        <a href="https://github.com/AlvaroCalde/ACPDWESProyectoDWES" target="blank"><img src="/webroot/images/github.png" alt="enlace a github" ></a>                       
     </footer>
 </body>
 </html>
