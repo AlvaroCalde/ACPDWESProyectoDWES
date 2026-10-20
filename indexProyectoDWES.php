@@ -22,7 +22,7 @@
         
             <div class="UD2" id="2">
                 <p>UT2: INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN DEL ENTORNO DE DESARROLLO Y DEL ENTORNO DE EXPLOTACIÓN</p>
-                <a href="./doc/USED.pdf" class="ej"  target="_blank">USED</a>
+                <a href="https://github.com/AlvaroCalde/ACPDAWProyectoDAW/blob/master/docs/ServidorDeDesarrollo.md" class="ej"  target="_blank">USED</a>
                 <a href="./doc/ClienteDeDesarrollo.pdf" class="ej"  target="_blank">W10ED</a>
             </div> 
         
