@@ -441,4 +441,3 @@ https://www.php.net/manual/es/exception.getcode.php
 | Elemento | Enlace | Propósito / Definición | Uso Típico |
 | :--- | :--- | :--- | :--- |
 | **`MYSQLI`** | [php.net](https://www.php.net/manual/es/class.mysqli.php) | Extensión de PHP moderna para interactuar con bases de datos **MySQL**. Soporta POO y programación procedural. | Conexión y consultas directas a MySQL. |
-| **`DOMDocument`** | [php.net](https://www.php.net/manual/es/class.domdocument.php) | Clase que proporciona una forma de **trabajar con documentos HTML o XML** usando el **DOM** (Document Object Model). | Analizar (parsear) documentos HTML o construir archivos XML. |
