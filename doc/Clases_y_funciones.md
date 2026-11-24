@@ -21,14 +21,14 @@ Son arrays asociativos que están siempre disponibles en todos los ámbitos del 
 
 | Variable | Propósito / Definición | Uso Típico |
 | :--- | :--- | :--- |
-| **`$_SERVER`** | Contiene información creada por el **servidor web** sobre el entorno de ejecución (cabeceras, rutas, host). | Obtener la IP del usuario (`$_SERVER['REMOTE_ADDR']`) o el método de la petición (`$_SERVER['REQUEST_METHOD']`). |
-| **`$_GET`** | Contiene variables pasadas al script a través de la **URL** (método **HTTP GET**), en la cadena de consulta. | Recibir datos de la URL: `index.php?id=10`. |
-| **`$_POST`** | Contiene variables pasadas al script a través del método de entrada **HTTP POST**. | Recibir datos de formularios (contraseñas, textos largos, etc.). |
-| **`$_REQUEST`** | Contiene una combinación de `$_GET`, `$_POST` y `$_COOKIE`. **(Uso desaconsejado)**. | Acceder a datos sin importar su origen. |
-| **`$_SESSION`** | Contiene variables de **sesión** disponibles para el usuario en múltiples páginas. Requiere `session_start()`. | Mantener el estado de login o un carrito de compras. |
-| **`$_COOKIE`** | Contiene variables pasadas al script a través de las **cookies HTTP**. | Leer un identificador de usuario o token de seguimiento. |
-| **`$_FILES`** | Contiene información sobre los archivos **subidos** al script. | Manejar el nombre, tamaño y ubicación temporal de archivos subidos. |
-| **`$_ENV`** | Contiene variables de **entorno** pasadas por el sistema operativo o el servidor web. | Acceder a claves de configuración específicas del entorno. |
+| **`$_SERVER`** | Contiene información creada por el **servidor web** sobre el entorno de ejecución (cabeceras, rutas, host). | Obtener la IP del usuario o el método de la petición.<br>**Ej:** `$metodo = $_SERVER['REQUEST_METHOD'];` / `$ip = $_SERVER['REMOTE_ADDR'];` |
+| **`$_GET`** | Contiene variables pasadas al script a través de la **URL** (método **HTTP GET**), en la cadena de consulta. | Recibir datos de la URL (`index.php?id=10`).<br>**Ej:** `$id = $_GET['id'];` |
+| **`$_POST`** | Contiene variables pasadas al script a través del método de entrada **HTTP POST**. | Recibir datos de formularios (contraseñas, textos largos, etc.).<br>**Ej:** `$usuario = $_POST['usuario'];` |
+| **`$_REQUEST`** | Contiene una combinación de `$_GET`, `$_POST` y `$_COOKIE`. **(Uso desaconsejado)**. | Acceder a datos sin importar su origen.<br>**Ej:** `$dato = $_REQUEST['campo'];` |
+| **`$_SESSION`** | Contiene variables de **sesión** disponibles para el usuario en múltiples páginas. Requiere `session_start()`. | Mantener el estado de login o un carrito de compras.<br>**Ej:** `$_SESSION['usuario'] = 'Ana';` |
+| **`$_COOKIE`** | Contiene variables pasadas al script a través de las **cookies HTTP**. | Leer un identificador de usuario o token de seguimiento.<br>**Ej:** `$tema = $_COOKIE['tema'] ?? 'claro';` |
+| **`$_FILES`** | Contiene información sobre los archivos **subidos** al script. | Manejar el nombre, tamaño y ubicación temporal de archivos subidos.<br>**Ej:** `$nombre = $_FILES['archivo']['name'];` |
+| **`$_ENV`** | Contiene variables de **entorno** pasadas por el sistema operativo o el servidor web. | Acceder a claves de configuración específicas del entorno.<br>**Ej:** `$dbPass = $_ENV['DB_PASS'];` |
 
 <hr>
 
