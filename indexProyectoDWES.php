@@ -58,7 +58,7 @@
     </main>           
     <footer>
         <address>2026-27 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
-        <a href="https://github.com/AlvaroCalde/ACPDWESProyectoDWES" target="blank"><img src="/webroot/images/github.png" alt="enlace a github" ></a>                       
+        <a href="https://github.com/AlvaroCalde/ACPDWESProyectoDWES" target="_blank"><img src="/webroot/images/github.png" alt="enlace a github" ></a>                       
     </footer>
 </body>
 </html>
