@@ -26,7 +26,7 @@ Son arrays asociativos que están siempre disponibles en todos los ámbitos del 
 | **`$_POST`** | Contiene variables pasadas al script a través del método de entrada **HTTP POST**. | Recibir datos de formularios (contraseñas, textos largos, etc.).<br>**Ej:** `$usuario = $_POST['usuario'];` |
 | **`$_REQUEST`** | Contiene una combinación de `$_GET`, `$_POST` y `$_COOKIE`. **(Uso desaconsejado)**. | Acceder a datos sin importar su origen.<br>**Ej:** `$dato = $_REQUEST['campo'];` |
 | **`$_SESSION`** | Contiene variables de **sesión** disponibles para el usuario en múltiples páginas. Requiere `session_start()`. | Mantener el estado de login o un carrito de compras.<br>**Ej:** `$_SESSION['usuario'] = 'Ana';` |
-| **`$_COOKIE`** | Contiene variables pasadas al script a través de las **cookies HTTP**. | superglobal (un array asociativo) que contiene las variables enviadas al script actual a través de cookies HTTP desde el navegador del usuario<br>**Ej:** `$tema = $_COOKIE['tema'] ?? 'claro';` |
+| **`$_COOKIE`** | Contiene variables pasadas al script a través de las **cookies HTTP**. | Guardar configuraciones como el idioma elegido, la moneda o el tema (modo oscuro/claro).<br>**Ej:** `$tema = $_COOKIE['tema'] ?? 'claro';` |
 | **`$_FILES`** | Contiene información sobre los archivos **subidos** al script. | Manejar el nombre, tamaño y ubicación temporal de archivos subidos.<br>**Ej:** `$nombre = $_FILES['archivo']['name'];` |
 | **`$_ENV`** | Contiene variables de **entorno** pasadas por el sistema operativo o el servidor web. | Acceder a claves de configuración específicas del entorno.<br>**Ej:** `$dbPass = $_ENV['DB_PASS'];` |
 
